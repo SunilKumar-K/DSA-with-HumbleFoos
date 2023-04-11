@@ -63,7 +63,7 @@ System.out.println(arr[0]);
 Output :- 1
 
 ```
-## For Dynamic arrays how to input form the user.
+## For Dynamic arrays how to take input form the user.
 
 ```java
 

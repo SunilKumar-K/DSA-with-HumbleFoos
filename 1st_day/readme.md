@@ -46,3 +46,77 @@ int array [] = new int[5];
 //here 5 is the size of an array .
 
 ```
+
+## How to access elements in an array ?
+- For Static and dynamic arrays we can **access data form an array with zero indexed based**.
+
+```java
+
+// we have array like this.
+
+int arr[] = {1,2,3,4,5};
+
+System.out.println(arr[0]);
+```
+
+```
+Output :- 1
+
+```
+## For Dynamic arrays how to input form the user.
+
+```java
+
+//in main method
+
+Scanner sc = new Scanner(System.in);  //scanner object is used to take the input form the user.
+
+int arr[] = new int[5]; //here i'm considering size of an array is 5
+
+for(int i=0;i< arr.length;i++)
+{
+    arr[i] = sc.nextInt();
+}
+
+//This is the way to take the values at runtime for dynamic arrays.
+
+```
+
+## How to access the values form an Array ?
+
+```java
+        // Accessing elements in an arrays.
+
+        //First Method By using for loops 
+
+        int arr[] = {1,2,3,4,5};
+
+        for (int i=0;i<arr.length;i++)
+        {
+            System.out.print(arr[i]+" ");
+        }
+       System.out.println(); 
+
+        //second method by using for each method 
+
+        for(int i : arr)
+        {
+            System.out.print(i+ " ");
+        }
+        System.out.println();
+
+        //Third method using .tostring method.
+
+        System.out.println(Arrays.toString(arr));
+
+  ```
+
+  ## Output :-
+
+```
+
+1 2 3 4 5 
+1 2 3 4 5 
+[1, 2, 3, 4, 5]
+
+```

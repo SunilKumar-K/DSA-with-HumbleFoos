@@ -44,3 +44,5 @@ int array[] = {1,2,3,4,5};
 int array [] = new int[5];
 
 //here 5 is the size of an array .
+
+```

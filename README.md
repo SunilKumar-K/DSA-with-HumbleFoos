@@ -8,4 +8,4 @@
 
 ## Requirements to take part in this course is 
 
-- you want to know about basic programming language and also you wanna have a some patience to learn ** DSA ** concepts.
+- you want to know about basic programming language and also you wanna have a some patience to learn **DSA** concepts.

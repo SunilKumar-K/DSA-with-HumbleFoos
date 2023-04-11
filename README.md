@@ -1,2 +1,6 @@
-# 100-Day-s-of-DSA-challenge-
-Hi guys , what ever I learned in  these 100 days those concepts will be shared here guys 
+## 100 Days of DSA challenge.
+
+- Hi guys This is Sunil kumar , I'm currently graduating B.Tech 3rd year in Mbu at Tirupati.
+- My background is electronics but I'm very interested in cs.
+- I will share all concepts what I learned in these 100 days.
+

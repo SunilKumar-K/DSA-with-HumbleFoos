@@ -120,3 +120,16 @@ for(int i=0;i< arr.length;i++)
 [1, 2, 3, 4, 5]
 
 ```
+## How many types to initialize multidimensional arrays in ?
+
+```java
+
+int array[][] = new int [n][m];
+
+```
+
+- here you need to consider n = number of columns and m = number of rows
+
+|| column 1 | column 2 | column 3 |
+|-|---------|-----------|-------------|
+| Row 1| arr[0][0]|arr[0][1]|arr[0][2]|

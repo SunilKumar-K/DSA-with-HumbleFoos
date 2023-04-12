@@ -128,7 +128,7 @@ int array[][] = new int [n][m];
 
 ```
 
-- here you need to consider n = number of columns and m = number of rows
+- here you need to consider **n = number of Rows and m = number of Colums.**
 
 || column 1 | column 2 | column 3 |
 |-|---------|-----------|-------------|

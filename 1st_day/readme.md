@@ -133,3 +133,8 @@ int array[][] = new int [n][m];
 || column 1 | column 2 | column 3 |
 |-|---------|-----------|-------------|
 | Row 1| arr[0][0]|arr[0][1]|arr[0][2]|
+| Row 2 | arr[1][0]|arr[1][1]|arr[1][2]|
+| Row 3 | arr[2][0]|arr[2][1]|arr[2][3]|
+
+- All types of **Arrays are starts with zero indexed based** plz remind, that's why only the we are starting form the zero and ending at size-1 . 
+- In the above table **arr[0][0]** means First row First column the element is located in that array

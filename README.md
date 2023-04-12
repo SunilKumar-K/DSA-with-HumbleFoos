@@ -10,7 +10,7 @@
 
 - you want to know about basic programming language and also you wanna have a some patience to learn **DSA** concepts.
 
-- [Arrays] (https://github.com/HumbleFool830/100-Day-s-of-DSA-challenge-/blob/main/1st_day/readme_1.md)
+- [Arrays](https://github.com/HumbleFool830/100-Day-s-of-DSA-challenge-/blob/main/1st_day/readme_1.md)
 
 
 

@@ -139,7 +139,7 @@ int array[][] = new int [n][m];
 - All types of **Arrays are starts with zero indexed based** plz remind, that's why only the we are **starting form the zero and ending at size-1.** 
 - In the above table **arr[0][0]** means The element is present at **First Row First Column**
 
-## How to initialize static assignment to multidimensional arrays ?
+## How to initialize static assignment in multidimensional arrays ?
 
 ```java
 

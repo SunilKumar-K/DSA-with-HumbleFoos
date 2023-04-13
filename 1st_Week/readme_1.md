@@ -257,3 +257,18 @@ for(int i=0;i<arr.length;i++)//This loop used to access the Rows.
 
 - Write a program to sort the given array              [solution](https://github.com/HumbleFool830/100-Day-s-of-DSA-challenge-/blob/main/Programming_Files/Arrays/Level_1/sortingIn_ascend.java)
 
+
+# Day 3
+
+- Today I started to design small applications by using oops concepts .
+
+- And also I sloved some problems on arrays like 
+
+1. Finding the unique element in a duplicates ?    [solution](https://github.com/HumbleFool830/100-Day-s-of-DSA-challenge-/blob/main/Programming_Files/Arrays/Level_1/duplicatesRemove.java)
+
+2. Searching a element in an array for both linear and binary search ?  [solution](https://github.com/HumbleFool830/100-Day-s-of-DSA-challenge-/blob/main/Programming_Files/Arrays/Level_1/searchingElement.java)
+
+3. Transpose of a 2d matrix ?   [solution]()
+
+4. sloving 2 sum problems with given sum and also solving the number of pairs that are equal to a given sum ?    [solution]
+

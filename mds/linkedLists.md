@@ -24,12 +24,12 @@ class Node{
     }
 }
 ```
-- **let's create a first linked list**.
+## create a first linked list.
 
-- let's **Head and Tail** be the first and last node of every linked list respectively.
-- let's consider a **empty linked list**, It means **Head and Tail** points to **NULL**. 
+- let us consider **Head and Tail** be the first and last node of every linked list respectively.
+- let us consider a **empty linked list**, It means **Head and Tail** points to **NULL**. 
 
-- let's consider we are adding a node to this **empty linked list** then **Head and Taill points to same node when the size of the list is 1**
+- let us consider we are adding a node to this **empty linked list** then **Head and Taill points to same node when the size of the list is 1**
 
 ## How to create a Singly Linked List ?
 
@@ -45,11 +45,11 @@ if(head == null)
     tail = newNode;
 }
 
-- Otherwise we are adding the node at the end of the list that is **Tail**. we wanna connect end of the list with **newNode** and **assigning newNode to Tail** 
+- Otherwise we are adding the node at the end of the list that is **Tail**. we wanna connect end of the list with **newNode** and **assigning newNode to Tail** and here also we are incrementing the size value.
 
 ```java
 
 else{
-    tail.next = newNode;
+    tail.next = newNode;  //.next is used to make connection between two nodes.
     tail = newNode;
 }

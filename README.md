@@ -12,6 +12,7 @@
 
 - [Arrays](https://github.com/HumbleFool830/100-Day-s-of-DSA-challenge-/blob/main/1st_Week/readme_1.md)
 
+- [Linked Lists](https://github.com/HumbleFool830/100-Day-s-of-DSA-challenge-/blob/main/mds/linkedLists.md)
 
 
 

@@ -44,11 +44,10 @@ if(head == null)
     head = newNode;
     tail = newNode;
 }
-
+```
 - Otherwise we are adding the node at the end of the list that is **Tail**. we wanna connect end of the list with **newNode** and **assigning newNode to Tail** and here also we are incrementing the size value.
 
 ```java
-
 else{
     tail.next = newNode;  //.next is used to make connection between two nodes.
     tail = newNode;

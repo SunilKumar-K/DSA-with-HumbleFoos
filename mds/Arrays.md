@@ -121,7 +121,7 @@ for(int i=0;i< arr.length;i++)
 
 ```
 
-## Day 2
+## Multidimensionl Arrays.
 
 ## How many types to initialize multidimensional arrays in java ?
 
@@ -256,13 +256,6 @@ for(int i=0;i<arr.length;i++)//This loop used to access the Rows.
 - Find a peak element which is not smaller than its neighbors    [solution](https://github.com/HumbleFool830/100-Day-s-of-DSA-challenge-/blob/main/Programming_Files/Arrays/Level_1/peakElement.java)
 
 - Write a program to sort the given array              [solution](https://github.com/HumbleFool830/100-Day-s-of-DSA-challenge-/blob/main/Programming_Files/Arrays/Level_1/sortingIn_ascend.java)
-
-
-# Day 3
-
-- Today I started to design small applications by using oops concepts .
-
-- And also I sloved some problems on arrays like 
 
 1. Finding the unique element in a duplicates ?    [solution](https://github.com/HumbleFool830/100-Day-s-of-DSA-challenge-/blob/main/Programming_Files/Arrays/Level_1/duplicatesRemove.java)
 

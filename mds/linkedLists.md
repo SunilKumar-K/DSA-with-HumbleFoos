@@ -39,6 +39,9 @@ class Node{
 
 ```java
 
+public void addNode(int data)
+{
+    Node newNode = new Node(data);
 if(head == null)
 {
     head = newNode;
@@ -47,9 +50,54 @@ if(head == null)
 ```
 - Otherwise we are adding the node at the end of the list that is **Tail**. we wanna connect end of the list with **newNode** and **assigning newNode to Tail** and here also we are incrementing the size value.
 
-```java
 else{
     tail.next = newNode;  //.next is used to make connection between two nodes.
     tail = newNode;
 }
+}
 ```
+
+## How to traverse form head node to last node in a linked list ?
+
+- Let us consider a temporary variable that is type of **Node** and assign it to head.
+- After you wanna access data by using "."data and "."next is used to move forward form one node to another node and also when ever the temp variable is equal to null then loop stops.
+
+```java
+
+public void display(){
+    while(temp!=null)
+{
+    System.out.print(temp.data + " -> ");
+    temp.next = next;
+}
+System.out.println("End");
+}
+```
+
+## HOw to add a element at First node or Head Node ?
+
+- when ever you are adding a newNode to the list at head or first , newNode always pointing to the head node and head is assign to the newNode .
+
+```java
+public void addFirst(int data)
+{
+    Node newNode = new Node(data);   // this will the object for Node type or linked list 
+    newNode.next = head ;
+    head = newNode;
+}
+
+```
+
+## How to add a element at Last Node or Tail Node ?
+
+- when ever you are adding a newNode to the list at last or Tail, tail is pointing to the newNode and tail is assigned with newNode.
+
+```java
+
+public void addLast(int data)
+{
+    Node newNode = new Node(data);
+    tail.next = newNode;
+    tail = newNode;  // we are considering tail as a last node in list that's why only  we are moving tail to last node.
+}
+

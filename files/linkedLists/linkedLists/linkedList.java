@@ -37,6 +37,7 @@ public class linkedList{
         else{
             tail.next = newNode;
             tail = newNode;
+            size++;
         }
     }
 

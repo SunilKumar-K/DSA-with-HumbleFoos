@@ -100,4 +100,23 @@ public void addLast(int data)
     tail.next = newNode;
     tail = newNode;  // we are considering tail as a last node in list that's why only  we are moving tail to last node.
 }
+```
 
+## How to add a element at a given position or a given index ?
+
+- we need to need traverse form head node to given index later you get that address of that node later you need to create object of that and data and that address . if size is equal to 0 then we will wall addFirst(data) and also size is equal to size then we will call addFirst(data).
+
+```java 
+
+public void addAtPosition(int data , int index)
+{
+    Node temp = head;
+    for(int i=1;i<index;i++)
+    {
+        temp = temp.next;
+    }
+    Node newNode = new Node(data, temp);
+    temp.next = temp.next.next;
+
+}
+```

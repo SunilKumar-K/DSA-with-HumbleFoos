@@ -24,7 +24,7 @@ class Node{
     }
 }
 ```
-## create a first linked list.
+## create a your first linked list.
 
 - let us consider **Head and Tail** be the first and last node of every linked list respectively.
 - let us consider a **empty linked list**, It means **Head and Tail** points to **NULL**. 

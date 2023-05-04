@@ -57,7 +57,7 @@ else{
 }
 ```
 
-## How to traverse form head node to last node in a linked list ?
+## How to traverse in a linked list form head node to last node ?
 
 - Let us consider a temporary variable that is type of **Node** and assign it to head.
 - After you wanna access data by using "."data and "."next is used to move forward form one node to another node and also when ever the temp variable is equal to null then loop stops.
@@ -77,6 +77,8 @@ System.out.println("End");
 ## HOw to add a element at First node or Head Node ?
 
 - when ever you are adding a newNode to the list at head or first , newNode always pointing to the head node and head is assign to the newNode .
+
+![Insertion in at head](https://github.com/HumbleFool830/100-Day-s-of-DSA-challenge-/blob/main/Images/insertion.jpg)
 
 ```java
 public void addFirst(int data)
@@ -120,8 +122,4 @@ public void addAtPosition(int data , int index)
 
 }
 ```
-
-## How to add a node at Head position ?
-
-![Insertion in at head](https://github.com/HumbleFool830/100-Day-s-of-DSA-challenge-/blob/main/Images/insertion.jpg)
 

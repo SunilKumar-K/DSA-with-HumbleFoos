@@ -56,4 +56,4 @@ else{
 
 ## How to add a node at Head position ?
 
-[](https://github.com/HumbleFool830/100-Day-s-of-DSA-challenge-/blob/main/Images/insertion.jpg)
+[image](https://github.com/HumbleFool830/100-Day-s-of-DSA-challenge-/blob/main/Images/insertion.jpg)

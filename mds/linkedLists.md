@@ -94,6 +94,8 @@ public void addFirst(int data)
 
 - when ever you are adding a newNode to the list at last or Tail, tail is pointing to the newNode and tail is assigned with newNode.
 
+![Insert at end](https://github.com/HumbleFool830/100-Day-s-of-DSA-challenge-/blob/main/Images/insertatend.jpeg)
+
 ```java
 
 public void addLast(int data)
@@ -107,6 +109,8 @@ public void addLast(int data)
 ## How to add a element at a given position or a given index ?
 
 - we need to need traverse form head node to given index later you get that address of that node later you need to create object of that and data and that address . if size is equal to 0 then we will wall addFirst(data) and also size is equal to size then we will call addFirst(data).
+
+![Insert at position](https://github.com/HumbleFool830/100-Day-s-of-DSA-challenge-/blob/main/Images/insertatposition.jpeg)
 
 ```java 
 

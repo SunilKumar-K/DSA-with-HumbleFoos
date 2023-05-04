@@ -5,6 +5,8 @@
 
 - The **first node also known as HEAD is always used as a reference to traverse the list**. The last node points to NULL. Linked list can be visualized as a chain of nodes, where every node points to the next node.
 
+![linkedlist](https://github.com/HumbleFool830/100-Day-s-of-DSA-challenge-/blob/main/Images/linkedlist.webp)
+
 ## Implementation of Linked List.
 
 ```java

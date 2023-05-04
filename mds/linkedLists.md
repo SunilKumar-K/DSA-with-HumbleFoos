@@ -74,7 +74,7 @@ System.out.println("End");
 }
 ```
 
-## HOw to add a element at First node or Head Node ?
+## How to add a element at First node or Head Node ?
 
 - when ever you are adding a newNode to the list at head or first , newNode always pointing to the head node and head is assign to the newNode .
 

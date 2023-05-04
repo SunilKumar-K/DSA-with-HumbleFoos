@@ -131,5 +131,76 @@ public void addAtPosition(int data , int index)
 
 - It is very simple , we want to move head form current position to 1 step forward.
 
+![delete at first](https://github.com/HumbleFool830/100-Day-s-of-DSA-challenge-/blob/main/Images/deleteatfirst.jpeg)
+
+```java
+
+  public int deleteAtFirst()
+  {
+    int m = head.data;
+    head = head.next;
+    return m;
+  }
+```
+- Go through corner cases and think about this ***If there is a one element in in the linked list or what will happen head pointing to null***
 
 
+## How to delete a last node in linked list ?
+
+- It is tough to delete a node at last becoz we don't have **tail.previous like this type pointer** 
+
+![delete at end](https://github.com/HumbleFool830/100-Day-s-of-DSA-challenge-/blob/main/Images/deleteatend.jpeg)
+
+## Note:-
+
+**If you want to know the length of linked list then you need to use one variable and also you need to modify it like whenever you adding a node into a list then increment size variable or when ever deleting a node in a linked list then decrement the size variable.** 
+
+```java
+
+
+public int deleteAtLast()
+{
+    int m = tail.data;
+    Node tail = secondLast(size);
+    return m;
+}
+// here we need a length of a linked list .
+public Node secondLast(int size)
+{
+    Node temp = head;
+    for(int i=1;i<size;i++)
+    {
+        temp = temp.next;
+    }
+
+    return temp;
+}
+```
+
+- In this code we are doing traversing head node to secondlast node in the linked list and that value is pointing to the tail.
+
+## How to delete a node at given index in a linked list ?
+
+- we are considering **1 index** based in linked list otherwise your wish .
+- we are traversing form head node to the previous node of the index.
+
+
+![delete at index](https://github.com/HumbleFool830/100-Day-s-of-DSA-challenge-/blob/main/Images/deleteatindex.jpeg)
+
+```java
+
+public int deleteAtIndex(int index)
+{
+    Node temp = head;
+    for(int i=1;i<index;i++)
+    {
+        temp = temp.next;
+    }
+    int m = temp.next.data;
+    temp.next = temp.next.next;
+
+    return m;
+}
+```
+
+- In above we are traversing form head node to previous node of index node and later assigning data with **m variable** after that we are making connection between previous node of index node to After node of previous node . 

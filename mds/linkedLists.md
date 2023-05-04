@@ -127,3 +127,9 @@ public void addAtPosition(int data , int index)
 }
 ```
 
+## How to delete a head node in linked list ?
+
+- It is very simple , we want to move head form current position to 1 step forward.
+
+
+

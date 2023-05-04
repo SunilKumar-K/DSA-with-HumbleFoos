@@ -1,6 +1,6 @@
-## 1st Day.
+## welcome :hugs::star_struck:
 
- Firstoff all I'm starting with arrays in arrays it will take almost 7 to 8 days to complete the all the concepts in arrays and also **solving the problems is very important and crucial in DSA guys**
+ Firstoff all I'm starting with arrays in arrays it will take almost 7 to 8 days to complete the all the concepts in arrays and also **solving the problems is very important and crucial in DSA guys go head to solve more number of problems.**
 ## what is mean by an array ?
 
 - Array is a linear data sturucture and also a data type , **which is used to store the values in sequence manner is called an array**

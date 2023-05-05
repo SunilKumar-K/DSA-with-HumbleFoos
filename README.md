@@ -1,4 +1,4 @@
-## 100 Days of DSA challenge.
+## Dsa Notes .
 
 - Hi guys This is Sunil kumar , I'm currently graduating B.Tech 3rd year in Mbu at Tirupati.
 - My background is electronics but I'm very interested in cs.
@@ -6,7 +6,7 @@
 
 
 
-## Requirements to take part in this course is 
+## Requirements to learn these concepts is understanding of basic programming. 
 
 - you want to know about basic programming language and also you wanna have a some patience to learn **DSA** concepts.
 

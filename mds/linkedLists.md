@@ -110,7 +110,7 @@ public void addLast(int data)
 
 ## How to add a element at a given position or a given index ?
 
-- we need to need traverse form head node to given index later you get that address of that node later you need to create object of that and data and that address . if size is equal to 0 then we will wall addFirst(data) and also size is equal to size then we will call addFirst(data).
+- we need to traverse form head node to given index later you get that address of that node later you need to create object of that data and that address . if size is equal to 0 then we will call addFirst(data) and also index is equal to size then we will call addLast(data) otherwise we follow this procedure.
 
 ![Insert at position](https://github.com/HumbleFool830/100-Day-s-of-DSA-challenge-/blob/main/Images/insertatposition.jpeg)
 
@@ -131,7 +131,7 @@ public void addAtPosition(int data , int index)
 
 ## How to delete a head node in linked list ?
 
-- It is very simple , we want to move head form current position to 1 step forward.
+- It is very simple , we want to move head form current position to 1 step forward that's enough.
 
 ![delete at first](https://github.com/HumbleFool830/100-Day-s-of-DSA-challenge-/blob/main/Images/deleteatfirst.jpeg)
 
@@ -144,7 +144,7 @@ public void addAtPosition(int data , int index)
     return m;
   }
 ```
-- Go through corner cases and think about this ***If there is a one element in in the linked list or what will happen head pointing to null***
+- Go through corner cases and think about this ***If there is a one element in the linked list or what will happen head pointing to null***
 
 
 ## How to delete a last node in linked list ?
@@ -185,6 +185,7 @@ public Node secondLast(int size)
 
 - we are considering **1 index** based in linked list otherwise your wish .
 - we are traversing form head node to the previous node of the index.
+- later on that we are removing connection between previous node to index node and later we are making connection between previous node of index node to after node of index node by giving this **temp.next = temp.next.next**.
 
 
 ![delete at index](https://github.com/HumbleFool830/100-Day-s-of-DSA-challenge-/blob/main/Images/deleteatindex.jpeg)
@@ -206,3 +207,6 @@ public int deleteAtIndex(int index)
 ```
 
 - In above we are traversing form head node to previous node of index node and later assigning data with **m variable** after that we are making connection between previous node of index node to After node of previous node . 
+
+
+- **After reading this, go through and  practice once later think about for corner cases and also use pen and paper to analyse the linked lists then you understood more**

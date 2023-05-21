@@ -1,6 +1,6 @@
 ## Week - 1 :
 
-- **you can solve every problem in different ways but you need to understand how you are approaching to solve any problem. Try to know many ways to a solve a particular problem.**
+- **you can solve every problem in different ways but you need to understand how you are approaching to solve a particular problem. Try to know many ways to a solve a particular problem.**
 
 # Reversing of an given array :-
 

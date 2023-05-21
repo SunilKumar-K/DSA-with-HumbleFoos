@@ -1,8 +1,8 @@
 ## Week - 1 :
 
-# Reversing of an given array :-
+- **you can solve every problem in different ways but you need to understand how you are approaching to solve any problem. Try to know many ways to a solve a particular problem.**
 
-- you can solve these question in no.of  ways but we are discussing 2 ways i.e.., **By using starting and ending indexes later swaping of those two index's by using temp variable. you need to increment the starting index and decrement the ending index.**
+# Reversing of an given array :-
 
 ```java
 import java.util.*;
@@ -98,7 +98,7 @@ public class Main{
     {
 
         int arr[] = new int[arr1.length+arr2.length];
-        
+
         int i=0,j=0,k=0;
 
         while(i < arr1.length && j < arr2.length)                      

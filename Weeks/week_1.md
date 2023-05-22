@@ -83,6 +83,14 @@ public static void arrayShuffling(int arr[])
 
 # Merging of two sorted arrays.
 
+- Before going to into solution understand the problem once **they were given two sorted arrays for us then later they were asking to create a new sorted array by using this two arrays.**.
+
+- we need to create new array with length of **arr1.length+arr2.length**.
+
+- Think few minutes later, let us consider **arr1 has five elements like 1,2,3,4,5 and arr2 is empty** here what we need to do means we need to simply copy the elements form arr1 to new sorted array right because these two arrays in sorting order right.
+
+- **arr1 has five elements like 1,2,3,4,5 and arr2 has three elements like 7,15,20** here what we need to means simply compare the elements form arr1 with arr2 right later we adding the elements to new array. Try understand below given code.
+
 ```java
 import java.util.*;
 
@@ -96,13 +104,14 @@ public class Main{
 
     public static void mergingOfArrays(int arr1[],int arr2[])
     {
-
+// we are creating a new array with length of arr1 length plus arr2 length.
         int arr[] = new int[arr1.length+arr2.length];
-
+// i,j,k variables are using to traversing of arrays arr1,arr2,arr with respectively.
         int i=0,j=0,k=0;
-
+        //both conditions is true then only we enter into loop let us consider or think with corner cases.
         while(i < arr1.length && j < arr2.length)                      
         {
+//  comparing the elements form arr1 with arr2.
           if(arr1[i]<arr2[j])
           {
             arr[k++] = arr1[i++];
@@ -111,19 +120,18 @@ public class Main{
             arr[k++]=arr2[j++];
           }
         }
-        
+ // we are adding the remaining elements in a first array.       
         while(i<arr1.length)
         {
           arr[k++] = arr[i++];
         }
-
+//we are adding the remaining elements in a second array.
          while(j < arr2.length)
         {
           arr[k++] = arr2[j++];
         }
         System.out.print(Arrays.toString(arr));
     }
-    
 }
 ```
 - **Output :- **[1,2,3,4,5,6,7,8,9,10].

@@ -14,7 +14,7 @@
 
 - [Linked Lists](https://github.com/HumbleFool830/100-Day-s-of-DSA-challenge-/blob/main/mds/linkedLists.md)
 
-- [week - 1 Practicing problems]()
+- [week - 1 Practicing problems](https://github.com/HumbleFool830/DSA_Notes/blob/main/Weeks/week_1.md)
 
 
 ## plz join our community what's app group.

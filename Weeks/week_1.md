@@ -80,6 +80,7 @@ public static void arrayShuffling(int arr[])
 }
 ```
 - **Out put :-** [2,4,1,3,5].
+- **After understanding this method try to slove this problem in two pointer method.**
 
 # Merging of two sorted arrays.
 

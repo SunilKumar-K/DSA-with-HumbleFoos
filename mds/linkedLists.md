@@ -85,7 +85,7 @@ System.out.println("End");
 ```java
 public void addFirst(int data)
 {
-    Node newNode = new Node(data);   // this will the object for Node type or linked list 
+    Node newNode = new Node(data);   // this is object like Node type or it will create a linked list with data and next value.
     newNode.next = head ;
     head = newNode;
 }

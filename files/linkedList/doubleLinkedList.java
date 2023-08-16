@@ -18,6 +18,14 @@ public class doubleLinkedList{
         dl.display();
 
         System.out.println(dl.size);
+
+        System.out.println("Deleting Node at First Position : " + dl.deletingNodeAtFirst());
+
+        dl.display();
+
+        System.out.println("Deleting Node at Last Position :"+ dl.deletingNodeAtLast());
+
+        dl.display();
     }
 
     class Node{
@@ -143,6 +151,23 @@ public class doubleLinkedList{
         size++;
     }
 
+    }
+
+    public int deletingNodeAtFirst()
+    {
+        int deletingNode = head.data;
+        head = head.next;
+        head.prev = null;
+        return deletingNode;
+    }
+
+    public int deletingNodeAtLast()
+    {
+        int deletingNode = tail.data;
+        tail = tail.prev;
+        tail.next = null;
+
+        return deletingNode;
     }
 
 }

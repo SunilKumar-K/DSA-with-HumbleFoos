@@ -14,8 +14,10 @@ public class doubleLinkedList{
 
         System.out.println(dl.size);
 
-        dl.addAtMiddle(25, 4);
+        dl.addAtMiddle(25, 3);
         dl.display();
+
+        System.out.println(dl.size);
     }
 
     class Node{
@@ -29,10 +31,13 @@ public class doubleLinkedList{
             this.next = next;
             this.prev = prev;
         }
-        public Node(int data, Node next)
+        public Node(int data,Node next)
         {
-            this.data =data;
+            this.data = data;
+            this.next = next;
+            this.prev = prev;
         }
+
     }
 
     public Node head = null;
@@ -130,11 +135,11 @@ public class doubleLinkedList{
            index--;
         }
 
-        Node newNode = new Node(data, current);
-        current.next = newNode;
+        Node newNode = new Node(data,current.next);
         current.next = newNode.next;
+        newNode.prev = current;
+        current.next = newNode;
         current.next.prev = newNode;
-        newNode.prev = current;  
         size++;
     }
 

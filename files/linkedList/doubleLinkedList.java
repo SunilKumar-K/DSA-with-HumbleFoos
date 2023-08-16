@@ -12,8 +12,10 @@ public class doubleLinkedList{
         dl.addAtLast(20);
         dl.display();
 
-        // dl.addAtMiddle(25, 4);
-        // dl.display();
+        System.out.println(dl.size);
+
+        dl.addAtMiddle(25, 4);
+        dl.display();
     }
 
     class Node{
@@ -30,13 +32,12 @@ public class doubleLinkedList{
         public Node(int data, Node next)
         {
             this.data =data;
-            this.next = next;
-            this.prev = prev;
         }
     }
 
     public Node head = null;
     public Node tail = null;
+    public int size = 0;
 
     //First off all considering like linked list is empty.
 
@@ -48,11 +49,13 @@ public class doubleLinkedList{
             head = newNode;
             tail = newNode;
             head.prev = null;
+            size++;
         }
         else{
             tail.next = newNode;
             newNode.prev = tail;
             tail = newNode;
+            size++;
            
         }
     }
@@ -85,6 +88,7 @@ public class doubleLinkedList{
             head.prev = newNode;
             head = newNode;
             newNode.prev = null;
+            size++;
         }
     }
 
@@ -102,26 +106,38 @@ public class doubleLinkedList{
         tail.next = newNode;
         newNode.prev = tail;
         tail = newNode;
+        size++;
         }
     }
 
      // Adding the node at middle of the Doubly linked list
 
-    // public void addAtMiddle(int data,int index)
-    // {
-    //     Node current = head;
-    //     while(index < 1)
-    //     {
-    //        current = current.next;
-    //        index--;
-    //     }
+    public void addAtMiddle(int data,int index)
+    {
+        if(size == 0)
+        {
+            addAtFirst(data);
+        }
+        else if(size <= index)
+        {
+            addAtLast(data);
+        }
+        else{
+        Node current = head;
+        while(index != 1)
+        {
+           current = current.next;
+           index--;
+        }
 
-    //     Node newNode = new Node(data, current);
-    //     current.next = newNode;
-    //     current.next = newNode.next;
-    //     current.next.prev = newNode;
-    //     newNode.prev = current;  
+        Node newNode = new Node(data, current);
+        current.next = newNode;
+        current.next = newNode.next;
+        current.next.prev = newNode;
+        newNode.prev = current;  
+        size++;
+    }
 
-    // }
+    }
 
 }

@@ -1,4 +1,4 @@
-package linkedLists;
+// package linkedLists;
 
 
 public class linkedList{

@@ -1,3 +1,5 @@
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Scanner;
 
 public class bst {
@@ -13,6 +15,24 @@ public class bst {
             return searchnode(root.left, data);
         } else {
             return searchnode(root.right, data);
+        }
+    }
+        public void levelOrderTraversal()
+    {
+        Queue<node> ll = new LinkedList<>();
+        ll.add(root);
+        while(!ll.isEmpty())
+        {
+            node tempNode = ll.poll();
+            System.out.println(tempNode.data);
+            if(tempNode.left != null)
+            {
+                ll.add(tempNode.left);
+            }
+            if(tempNode.right != null)
+            {
+                ll.add(tempNode.right);
+            }
         }
     }
 
@@ -33,10 +53,12 @@ public class bst {
         bst.root = bst.insertnode(bst.root, 15);
         bst.root = bst.insertnode(bst.root, 10);
         bst.root = bst.insertnode(bst.root, 25);
-        bst.root = bst.insertnode(bst.root, 9);
-        bst.root = bst.insertnode(bst.root, 11);
         bst.root = bst.insertnode(bst.root, 20);
         bst.root = bst.insertnode(bst.root, 27);
+        bst.root = bst.insertnode(bst.root, 11);
+        bst.root = bst.insertnode(bst.root, 9);
+
+        bst.levelOrderTraversal();
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a searching number");
@@ -47,5 +69,6 @@ public class bst {
         } else {
             System.out.println("Data is not present in the tree");
         }
+
     }
 }
